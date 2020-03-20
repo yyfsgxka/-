@@ -19,13 +19,7 @@ int main()
 
 	int elementSize = 4;
 	int count = 0;
-	cout << "------program starts------ " << endl;
-
-	if (srcMat.empty())
-	{
-		cout << "load image error!" << endl;
-	}
-
+	
 	cv::bitwise_not(srcMat, srcMat);
 	//¶þÖµ»¯
 	cv::threshold(srcMat, binaryMat, 0, 255, THRESH_OTSU);
