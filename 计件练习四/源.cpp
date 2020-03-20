@@ -6,7 +6,6 @@ using namespace std;
 
 int main()
 {
-
 	cv::Mat binaryMat;
 	cv::Mat labelMat;
 	cv::Mat statsMat;
